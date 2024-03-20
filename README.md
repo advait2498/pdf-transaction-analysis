@@ -21,3 +21,6 @@ This project is developed in Python 3.9. To follow the steps below, make sure yo
     ```
     python src/main.py
     ```
+
+
+**Note**: The `extract_transactions` file contains the `extract_transaction_from_pdf` method, which is responsible for converting PDF files to CSV format. To create the CSV file, you'll need to sign up on pdftables.com and obtain an API key. Insert this API key into the `extract_transaction_from_pdf` function.
